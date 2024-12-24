@@ -32,6 +32,7 @@ except ImportError:
 
 import numpy as np
 import torch
+torch.cuda.empty_cache()
 import torch.distributed as dist
 import torch.nn as nn
 import yaml
